@@ -12,7 +12,7 @@
     I concat the data[:,:,:4] and the mask [:,:,5] in the one file. So each file in the Killt/npydata will have the shape 64 * 512 *6
 
 ### Attention
-When you try to use the Step, you need to change the index in the line 400:
+    When you try to use the Step4, you need to change the index in the line 400:
             id_name = para.name[46:67] # 2011_09_26_drive_000
             id_root = para.name[79:89] # 00000001
-To get the right name depend on you root 
+    To get the right name depend on you root 
